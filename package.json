@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "concurrently \"tsc -p ./\" \"node ./bin/www\""
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "@angular/common": "~4.0.0",
